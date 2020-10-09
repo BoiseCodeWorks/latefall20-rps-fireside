@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>RocknPaper</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <main class="container-fluid">
+    <div class="row justify-content-center">
+      <h5 id="score-board" class="col-4 offset-8">You:0 Computer:0</h5>
+    </div>
+    <div id='battle-area' class="row">
+      <div class="col-4"><img src="" alt="" srcset=""></div>
+      <h3 id="result" class="col-4 text-center">who will win?
+        <div class="col-4"><img src="" alt="" srcset=""></div>
+    </div>
+    </h3>
+    <div id="buttons" class="row justify-content-center">
+      <div class="col-4 btn btn-danger" onclick="playerChoice('fire')">fire</div>
+      <div class="col-4 btn btn-success" onclick="playerChoice('grass')">grass</div>
+      <div class="col-4 btn btn-info" onclick="playerChoice('ice')">ice</div>
+      <div class="col-4 btn btn-primary" onclick="playerChoice('water')">water</div>
+      <div class="col-4 btn btn-secondary" onclick="playerChoice('rock')">rock</div>
+    </div>
+
+  </main>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
